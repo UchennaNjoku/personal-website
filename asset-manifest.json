@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.2b11807b.css",
+    "main.js": "/personal-website/static/js/main.10635ad0.js",
+    "static/media/munchies-img.png": "/personal-website/static/media/munchies-img.e926234d72b50b5b3815.png",
+    "static/media/resume.pdf": "/personal-website/static/media/resume.9498ed628810c22e142a.pdf",
+    "static/media/yt2sp.png": "/personal-website/static/media/yt2sp.69c465d12e248c9545a5.png",
+    "index.html": "/personal-website/index.html",
+    "main.2b11807b.css.map": "/personal-website/static/css/main.2b11807b.css.map",
+    "main.10635ad0.js.map": "/personal-website/static/js/main.10635ad0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b11807b.css",
+    "static/js/main.10635ad0.js"
+  ]
+}
