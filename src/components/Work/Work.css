@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px){
+    .project-images{
+        display: none;
+        
+    }
+}
+
+.glass-morphism{
+/* From https://css.glass */
+background: rgba(102, 89, 89, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+}
