@@ -33,8 +33,8 @@ function Work() {
                 <h2 className='text-neonsign text-sm '>Featured Project</h2>
                 <p className='text-xs font-pt-sans font-medium'>A web application crafted to convert any youtube music playlist into a spotify playlist, without the hassle.</p>
                 <div className='flex justify-end'>
-                    <a href="https://github.com/UchennaNjoku/YT2SP"><h2 className='text-neonsign text-xs inline font-light hover:underline justify-end self-end items-end mr-5'>github</h2></a>    
-                    <a href="https://github.com/UchennaNjoku/YT2SP"><h2 className='text-neonsign text-xs inline font-light hover:underline justify-end self-end items-end'>website</h2></a>    
+                    <a href="https://github.com/UchennaNjoku/Yt2Sp"><h2 className='text-neonsign text-xs inline font-light hover:underline justify-end self-end items-end mr-5'>github</h2></a>    
+                    <a href="https://yt2sp.herokuapp.com/"><h2 className='text-neonsign text-xs inline font-light hover:underline justify-end self-end items-end'>website</h2></a>    
                 </div>
             </div>
         </div>
