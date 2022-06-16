@@ -6,7 +6,7 @@ let munchies = require("./munchies-img.png")
 let yt2sp = require("./yt2sp.png")
 function Work() {
   return(
-    <div className='px-14 mt-32 md:ml-16 md:mr-20 lg:ml-28 font-fira pb-20'>
+    <div className='px-14 mt-32 md:ml-16 md:mr-20 lg:ml-28 font-fira pb-20' id="section3">
         <div className='text-slate-300 md:text-2xl text-lg font-extrabold mb-16'>
           <h1 className='inline '><span className='text-neonsign font-normal'>03.</span>  /software-creations</h1> <span className="font-normal text-slate-600">----------</span>     
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div className='px-14 md:ml-16 md:mr-20 lg:ml-28 font-fira mt-32 flex flex-col items-center'>
+    <div className='px-14 md:ml-16 md:mr-20 lg:ml-28 font-fira mt-32 flex flex-col items-center'  id="section2">
       <div className='text-slate-300 md:text-2xl text-lg font-extrabold'>
           <h1 className='inline '><span className='text-neonsign font-normal'>02.</span>  /skillset</h1> <span className="font-normal text-slate-600">-------------------<span className='hidden lg:inline'>-----</span></span>     
       </div>

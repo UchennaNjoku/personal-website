@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className='px-14 md:ml-16 md:mr-20 lg:ml-28 font-fira pb-28'>
+    <div className='px-14 md:ml-16 md:mr-20 lg:ml-28 font-fira pb-28'  id="section4" >
       <div className='text-slate-300 md:text-2xl text-lg font-extrabold'>
           <h1 className='inline '><span className='text-neonsign font-normal'>04.</span>  /contact</h1> <span className="font-normal text-slate-600">------------------</span>     
       </div>

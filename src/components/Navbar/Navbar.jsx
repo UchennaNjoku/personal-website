@@ -1,5 +1,6 @@
 import React from 'react';
 import { CgMenuRight } from "react-icons/cg";
+import { Link as LinkScroll } from "react-scroll";
 
 let resume = require("./resume.pdf")
 
@@ -13,9 +14,52 @@ function Navbar() {
             <CgMenuRight className='text-3xl font-semibold ' tabindex="0" class=" m-1" color='rgb(156 163 175)'/>
           
     
-            <ul tabindex="0" class="text-base dropdown-content top-10 absolute menu p-2 shadow bg-menubackcolor rounded-box w-40 font-medium font-fira">
-              <li className='text-white hover:text-neonsign'><a href="/">/about</a></li>
-              <li className='text-white hover:text-neonsign'><a href="/">/contact</a></li>
+            <ul tabindex="0" class="text-base dropdown-content top-10 absolute menu p-3 shadow flex justify-center items-center flex-col bg-menubackcolor rounded-box w-40 font-medium font-fira">
+              <li className='text-white hover:text-neonsign cursor-pointer'>
+                <LinkScroll activeClass="active"
+                            to="section1"
+                            spy={true}
+                            smooth={true}
+                            offset={-120}
+                            duration={800}>
+                  <a href="/">/about</a>
+                </LinkScroll>  
+              </li>
+              <li className='text-white hover:text-neonsign cursor-pointer'>
+                <LinkScroll activeClass="active"
+                            to="section2"
+                            spy={true}
+                            smooth={true}
+                            offset={-120}
+                            duration={800}>
+                  <a href="/">/skills</a>
+                </LinkScroll>  
+              </li>
+              <li className='text-white hover:text-neonsign cursor-pointer'>
+                <LinkScroll activeClass="active"
+                            to="section3"
+                            spy={true}
+                            smooth={true}
+                            offset={-120}
+                            duration={800}>
+                  <a href="/">/work</a>
+                </LinkScroll>  
+              </li>
+              <li className='text-white hover:text-neonsign cursor-pointer'>
+                <LinkScroll activeClass="active"
+                            to="section4"
+                            spy={true}
+                            smooth={true}
+                            offset={-120}
+                            duration={800}>
+                  <a href="/">/contact</a>
+                </LinkScroll>  
+              </li>
+              <a href={resume} className='font-fira' >
+                <li className=' border hover:text-slate-200 font-medium text-neonsign border-neonsign px-4 py-2 hover:bg-slate-800 rounded-md w-fit'>
+                    Resume
+                </li>
+              </a>  
             </ul>
           </div>
         </div>
@@ -32,10 +76,46 @@ function Menu() {
     <div>
       <div className="md-flex">
           <ul className='flex font-semibold text-sm font-fira text-gray-400 justify-center items-center '>
-            <li className='mx-5 hover:text-neonsign'><a href="/">/about</a></li>
-            <li className='mx-5 hover:text-neonsign'><a href="/">/skills</a></li>
-            <li className='mx-5 hover:text-neonsign'><a href="/">/work</a></li>
-            <li className='mx-5 hover:text-neonsign'><a href="/">/contact</a></li>
+            <li className='mx-5 hover:text-neonsign cursor-pointer'>
+              <LinkScroll activeClass="active"
+                    to="section1"
+                    spy={true}
+                    smooth={true}
+                    offset={-120}
+                    duration={800}>
+                      /about
+              </LinkScroll>
+            </li>
+            <li className='mx-5 hover:text-neonsign cursor-pointer'>
+              <LinkScroll activeClass="active"
+                    to="section2"
+                    spy={true}
+                    smooth={true}
+                    offset={-120}
+                    duration={800}>
+                      /skills
+              </LinkScroll>
+            </li>
+            <li className='mx-5 hover:text-neonsign cursor-pointer'>
+              <LinkScroll activeClass="active"
+                    to="section3"
+                    spy={true}
+                    smooth={true}
+                    offset={-120}
+                    duration={800}>
+                      /work
+              </LinkScroll>
+            </li>
+            <li className='mx-5 hover:text-neonsign cursor-pointer'>
+              <LinkScroll activeClass="active"
+                    to="section4"
+                    spy={true}
+                    smooth={true}
+                    offset={-120}
+                    duration={800}>
+                      /contact
+              </LinkScroll>
+            </li>
             <a href={resume} className='font-fira' >
             <li className=' border hover:text-slate-200 font-medium text-neonsign border-neonsign px-4 py-2 hover:bg-slate-800 rounded-md w-fit'>
                 Resume
